@@ -1,0 +1,142 @@
+ @echo off
+:a
+mode 100,50
+color B
+title Custom IP Pinger With Your Name : Made by @castor
+echo
+echo                              /NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/
+echo                             /NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/ 
+echo                            /NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMo                            
+echo                           .NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/                           
+echo                           oMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN.                          
+echo                           hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+                          
+echo                           dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMo                          
+echo                           hMMd-+ydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmhs+/hMM+                          
+echo                           sMMs   `-+hmMMMMMMMMMMMMMMMMMMMMMMMds:.`   sMM.                          by castor
+echo                           :MMh       ./ymMMMMMMMMMMMMMMMMMmy:`       dMd                        EASY PINGER BRO
+echo                           `NMM/         ./sdNMMMMMMMMMNds/.         +MM+                           
+echo                            oMMN+.          `.:odMMMdo:.`          .+NMN`                           
+echo                             +NMMNdyo/:--...-:+ymdmmmy+:-...--:+oydmMMMo                            
+echo                              :mMMMMMMMMNNNNNMMMs`h`sMMMNNNNNMMMMMMMMMM`                            
+echo                             `ymMMMMMMMMMMMMMMMy``d``yMMMMMMMMMMMMMMMMm`                            
+echo                             .MMMMMMMMMNmdNMMMN.`hMy`.NMMMMMMNmdmNMMMMM+                            
+echo                             /MMMMMMNy/.``dMMMMdoMMM+dMMMMMM+-```-NMMMm.                            
+echo                            `sNMmmd/.    hMMMMMMMMMMMMMMMMM:    -mNd+`                             
+echo                               -/. -/-    mMMMmMMMmNMN+sNMMN`    `--                                
+echo                                          /MMN-MMM:hMm mMMN+                                        
+echo                                          `MMM:MMM/dMN.MMMy                                         
+echo                                           NMM/MMM/mMN-MMMo                                         
+echo                                           mMM/MMM/mMN:MMM+                                         
+echo                                           dMM/NMM/NMN/MMM/                                         
+echo                                           hMM/mMM/NMN+MMM-                                         
+echo                                           yMM/dMM:NMm+MMM.                                         
+echo                                           oMM:hMM-NMh+MMN                                          
+echo                                           /MM:yMM`mMo+MMd                                          
+echo                                            -+`+hy sd.-ys:     
+echo                            #--------------------# #--------------------#
+echo                             # EZ PINGER @castor # #    IP PINGER      #
+echo                            #--------------------# #--------------------#
+
+echo !Name doesnt get logged just for a better experience!
+set /p Name= Enter a name : 
+title Oi %Name% Target=
+set /p IP= Smack Ip here %Name%:
+title Oi %Name% Target= %IP%
+echo RIP WIFI ----%IP% -- easy pinger
+title WiFi eat shit nerd
+:top
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been taken down...)
+ping -t 2 0 10 127.0.0.1 >nul
+color D
+echo -- %Name% OP --
+title A
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 02
+echo -- %Name% OP --
+title EA
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 03
+echo -- %Name% OP --
+title EAS
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 04
+echo -- %Name% OP --
+title EASY
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 05
+echo -- %Name% OP --
+title EASY P
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 06
+echo -- %Name% OP --
+title EASY PI
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 07
+echo -- %Name% OP --
+title EASY PIN
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 08
+echo -- %Name% OP --
+title EASY PING
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 09
+echo -- %Name% OP --
+title EASY PINGE
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0b
+echo -- %Name% OP --
+title EASY PINGER B
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 0c
+echo -- %Name% OP --
+title EASY PINGER BR
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...) 
+ping -t 2 0 10 127.0.0.1 >nul
+color 0d
+echo -- %Name% OP --
+title EASY PINGER BRO
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0e
+echo -- %Name% OP --
+title EASY PINGER BRO :
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+color 0f
+echo -- %Name% OP --
+title EASY PINGER BRO :)
+PING -n 1 %IP% | FIND "TTL="
+IF ERRORLEVEL 1 (SET in=c & echo fat cunt %IP% has been raped by %Name%...)
+ping -t 2 0 10 127.0.0.1 >nul
+echo -- %Name% OP --
+echo made by castor
+echo %Name% going for %IP% whos gonna get fucked
+GoTo top
+
+
+
+
